@@ -1,0 +1,20 @@
+.web_logo{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    float: left;
+    border-radius: 0.5rem;
+    
+}
+.index{
+    width: 1750px;
+    height: 150px;
+    background-image: linear-gradient(to right, #ff0000, #2700ff);
+    color: white;
+    float: right;
+    align-items: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
