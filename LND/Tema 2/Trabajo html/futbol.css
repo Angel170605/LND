@@ -1,27 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/home/daw/Escritorio/futbol.css">
-    <style>
-        body { background-color: white }
-    </style>
-</head>
-<body>
-    <div class="web_logo">
-        <img src="/home/daw/Descargas/icon.png" height="150px" widht="150px">
-    </div>
-    <div class="index">
-        <p><a target="web_logo" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.premierleague.com/&ved=2ahUKEwjz5aKOvNiFAxW7BfsDHc7-BDwQFnoECC4QAQ&usg=AOvVaw0wfezhVXNw3hZY15MKi4Rz">Premier</a></p>
-        <p><a target="_blank" href="https://www.laliga.com/es-GB">LaLiga</a></p>
-        <p><a target="_blank" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.bundesliga.com/es/bundesliga&ved=2ahUKEwio4pGhvNiFAxXlVKQEHSwLBv8QFnoECBUQAQ&usg=AOvVaw0mEnQ7IudtMm_GKoSH-HA0">Bundesliga</a></p>
-        <p><a target="_blank" href="https://www.legaseriea.it/en">Serie A</a></p>
-        <p><a target="_blank" href="https://www.ligue1.com/">Ligue 1</a></p>
-    </div>
-    <div class="main">
-        <p>INTENTAR QUE LOS ENLACES DE ARRIBA SE ABRAN AQUÍ</p>
-    </div>
-</body>
-</html>
+.web_logo{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    float: left;
+    border-radius: 0.5rem;
+    
+}
+.index{
+    width: 1750px;
+    height: 150px;
+    background-image: linear-gradient(to right, #ff0000, #2700ff);
+    color: white;
+    float: right;
+    align-items: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main{
+    width: 1905px;
+    height: 1000px;
+    margin-block-start: 5px;
+    background-color: black;
+    background-size: contain;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
+
+a:visited{
+    text-decoration: none;
+    color: white
+}
