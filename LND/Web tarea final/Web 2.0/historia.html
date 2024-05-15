@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDC</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+        }
+
+        #logo {
+            width: 5%;
+            height: auto;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+
+        .btns {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 0.5rem;
+        }
+
+        .btn {
+            font-size: 1.2rem;
+            padding: 1rem 2.5rem;
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 165, 0);
+            font-weight: 700;
+            transition: 0.6s;
+            box-shadow: 0px 0px 6px rgba(255, 165, 0, 0.5);
+            margin-right: 1rem;
+        }
+
+        .btn:last-child {
+            margin-right: 0;
+        }
+
+        .btn:active {
+            transform: scale(0.92);
+        }
+
+        .btn:hover {
+            background: rgb(255, 0, 0);
+            background: linear-gradient(270deg, rgba(255, 0, 0, 0.681) 0%, rgba(255, 165, 0, 0.873) 60%);
+            color: rgb(4, 4, 38);
+        }
+
+        .content {
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+	        margin-top: 10px;
+            flex-grow: 1;
+            width: 100%; /* Ocupa el ancho completo */
+            display: flex;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            flex-direction: column; /* Cambio importante aquí */
+            align-items: center; /* Centra el contenido verticalmente */
+	        background-image: linear-gradient(to bottom, red, yellow);
+            color: black; /* Color de texto provisional */
+        }
+
+        .content p {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <img id="logo" src="./UDC.png" alt="Logo UDC">
+    <div class="btns">
+        <button class="btn"><a href="./historia.html">historia</a></button>
+        <button class="btn"><a href="./jugadores.html">jugadores</a></button>
+        <button class="btn"><a href="./tienda.html">tienda</a></button>
+    </div>
+    <div class="content">
+        <h2>Fundación</h2>
+        <p>El miércoles 9 de Agosto de 2023, dos amigos estaban teniendo una conversación por Whatsapp normal y corriente, cuyo tema fue derivando hasta que llegó a los territorios y propiedades. Fue entonces cuando a Omar, uno de los jóvenes, propuso la adquisición de uno de estos territorios para construir un estadio de fútbol. Pero este no sería un estadio cualquiera, si no el de Unión Deportiva Cachozos. Así, fue en ese instante en el que la idea del equipo nació, y fue cobrando forma entre las sombras hasta salir a la luz en su presentación oficial el lunes 4 de septiembre de 2023. Con esta presentación, se anunció el club con su escudo y sus tres equipaciones alternativas a otros amigos de estos dos. El proyecto obtuvo una sorprendente reacción por parte de sus nuevos espectadores e integrantes.</p>
+        <h2>Proyecto deportivo</h2>
+        <p>Unión Deportiva Cachozos cuenta con un ambicioso proyecto deportivo, cuyo estatuto principal se basa en la priorización de la formación y crecimiento de sus canteranos ante el fichaje de estrellas de otros clubes. De esta manera, sus jugadores tendrán los valores y estilo de juego del equipo corriendo por sus venas; además de que los jugadores locales tendrán la oportunidad de crecer en un fútbol que está entrando en la era post-Messi y Cristiano, y los focos están puestos en los jóvenes talentos que podrían ser las nuevas estrellas e, incluso, dejar huella en la historia del deporte rey.</p>
+        <h2>Estadio</h2>
+        <p>Actualmente, al ser un club tan reciente y no disponer de estadio propio de manera oficial, Unión Deportiva Cachozos lleva a cabo las sesiones de entrenamiento en el Mocán Football Stadium:</p>
+        <img src="./e1.png" width="60%" height="60%">
+        <p>Sin embargo, ya hay planes de futuro con respecto a esta situación. Y es que ya el Unión Deportiva Cachozos Stadium; estadio oficial del club, ha sido prediseñado y el club se encuentra en negociaciones para la obtención de la propiedad de distintos territorios para su construcción junto a sus instalaciones y ciudad deportiva. Un proyecto a largo plazo, pero prometedor.</p>
+    </div>
+</body>
