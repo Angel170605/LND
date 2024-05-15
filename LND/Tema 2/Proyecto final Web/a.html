@@ -1,57 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./a.css">
     <title>UDC</title>
     <style>
-        body{background-color:black}
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+        }
 
-        .btns{
-  width: 100%;
-  display: flex;
-}
+        #logo {
+            width: 5%;
+            height: auto;
+            margin-top: 1rem;
+        }
 
-.btn {
-    font-size: 1.2rem;
-    padding: 1rem 2.5rem;
-    border: none;
-    outline: none; /* No se toca */
-    border-radius: 0.4rem; /* Radio del borde de los botones */
-    cursor: pointer /* El ratón se pone en modo "mano" cuando lo pasas por encima de los botones*/;
-    text-transform: uppercase /* Pone en mayúscula el texto de los botones */ ;
-    background-color: rgb(0, 0, 0); /* Rojo */
-    color: rgb(255, 165, 0); /* Anaranjado */
-    font-weight: 700; /* Texto en  negrita*/
-    transition: 0.6s; /* Duración del efecto de los botones */
-    box-shadow: 0px 0px 6px rgba(255, 165, 0, 0.5);
-    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-    margin-right: 1rem; /* Agregado para separar los botones horizontalmente */
-  }
-  
-  .btn:active {
-    transform: scale(0.92); /* Corrección: "scale" en lugar de "scale" */
-  }
-  
-  .btn:hover {
-    background: rgb(255, 0, 0); /* Rojo */
-    background: linear-gradient(270deg, rgba(255, 0, 0, 0.681) 0%, rgba(255, 165, 0, 0.873) 60%); /* Anaranjado */
-    color: rgb(4, 4, 38);
-  }
+        .btns {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+	    margin-bottom: 10px;
+	    border: none;
+	    border-radius: 0.5rem;
+        }
+
+        .btn {
+            font-size: 1.2rem;
+            padding: 1rem 2.5rem;
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 165, 0);
+            font-weight: 700;
+            transition: 0.6s;
+            box-shadow: 0px 0px 6px rgba(255, 165, 0, 0.5);
+            margin-right: 1rem;
+        }
+
+        .btn:last-child {
+            margin-right: 0;
+        }
+
+        .btn:active {
+            transform: scale(0.92);
+        }
+
+        .btn:hover {
+            background: rgb(255, 0, 0);
+            background: linear-gradient(270deg, rgba(255, 0, 0, 0.681) 0%, rgba(255, 165, 0, 0.873) 60%);
+            color: rgb(4, 4, 38);
+        }
+
+        .content {
+	    margin-top: 10px;
+            flex-grow: 1;
+            width: 100%; /* Ocupa el ancho completo */
+            display: flex;
+            flex-direction: column; /* Cambio importante aquí */
+            align-items: center; /* Centra el contenido verticalmente */
+	    background-color: white;
+            color: black; /* Color de texto provisional */
+        }
     </style>
 </head>
 <body>
-  <div class="btns">
-      <button class="btn">
-          historia
-        </button>
-        <button class="btn">
-          jugadores
-        </button>
-        <button class="btn">
-          tienda
-        </button>
-      </div>
-    </body>
-</html>
+    <img id="logo" src="UDC.png" alt="Logo UDC">
+    <div class="btns">
+        <button class="btn">historia</button>
+        <button class="btn">jugadores</button>
+        <button class="btn">tienda</button>
+    </div>
+    <div class="content">
+        <h2>Fundación</h2>
+        <p>El miércoles 9 de Agosto de 2023, dos amigos estaban teniendo una conversación por Whatsapp normal y corriente, cuyo tema fue derivando hasta que llegó a los territorios y propiedades. Fue entonces cuando a Omar, uno de los jóvenes, propuso la adquisición de uno de estos territorios para construir un estadio de fútbol. Pero este no sería un estadio cualquiera, si no el de Unión Deportiva Cachozos. Así, fue en ese instante en el que la idea del equipo nació, y fue cobrando forma entre las sombras hasta salir a la luz en su presentación oficial el lunes 4 de septiembre de 2023. Con esta presentación, se anunció el club con su escudo y sus tres equipaciones alternativas a otros amigos de estos dos. El proyecto obtuvo una sorprendente reacción por parte de sus nuevos espectadores e integrantes.</p>
+        <h2>Proyecto deportivo</h2>
+        <p>Unión Deportiva Cachozos cuenta con un ambicioso proyecto deportivo, cuyo estatuto principal se basa en la priorización de la formación y crecimiento de sus canteranos ante el fichaje de estrellas de otros clubes. De esta manera, sus jugadores tendrán los valores y estilo de juego del equipo corriendo por sus venas; además de que los jugadores locales tendrán la oportunidad de crecer en un fútbol que está entrando en la era post-Messi y Cristiano, y los focos están puestos en los jóvenes talentos que podrían ser las nuevas estrellas e, incluso, dejar huella en la historia del deporte rey.</p>
+    </div>
+</body>
