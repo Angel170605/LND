@@ -134,12 +134,12 @@ body {
             font-size: 24px;
             color: orange;
             font-weight: 700;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           }
           
           .card__description {
             text-align: center;
             margin: 10px 0 0;
-            font-size: 14px;
             color: orange;
             line-height: 1.4;
             font-weight: 700;
@@ -149,16 +149,23 @@ body {
             scale: 0;
             transform: rotate(-45deg);
           }
-          .table, th, td{
-            border-color: red;
-            background-color: black;
-            font-size: small;
-        }
         .stats{
-          font-size: 8px;
+          font-size: 10px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         .captain{
           color: orange;
-          font-size: 12px;
+          font-size: 10px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           font-weight: 700;
+        }
+        .card h1 {
+          font-weight: 700;
+          color: orange;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .card h3 {
+          font-weight: 700;
+          color: white;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
