@@ -163,12 +163,6 @@
           transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
         }
         
-        .card_dc img {
-          width: 30%;
-          fill: #333;
-          transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-        }
-        
         .card_dc:hover {
           transform: scale(1.1);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -209,12 +203,6 @@
         transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
       }
       
-      .card_ed img {
-        width: 30%;
-        fill: #333;
-        transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-      }
-      
       .card_ed:hover {
         transform: scale(1.1);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -231,17 +219,6 @@
         scale: 0;
         transform: rotate(-45deg);
       }
-
-    .card_ed h1 {
-      font-weight: 700;
-      color: orange;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .card_ed h3 {
-      font-weight: 700;
-      color: white;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
 
     /*CARTA MEDIOCENTRO*/
 
@@ -260,12 +237,6 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-    }
-    
-    .card_mc img {
-      width: 30%;
-      fill: #333;
       transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
     }
     
@@ -301,12 +272,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-  
-  .card_cb img {
-    width: 30%;
-    fill: #333;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
