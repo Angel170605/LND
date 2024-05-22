@@ -1,0 +1,30 @@
+.content {
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+	        margin-top: 10px;
+            flex-grow: 1;
+            width: 100%; /* Ocupa el ancho completo */
+            display: flex;
+            flex-direction: column; /* Cambio importante aquí */
+            align-items: center; /* Centra el contenido verticalmente */
+            color: white; /* Color de texto provisional */
+        }
+
+        .h_section, .t_section, .s_section{
+            width: 100%;
+            height: 300px;
+            color: white;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .h_section {
+            background-image: linear-gradient(black, yellow);
+        }
+
+        .t_section{
+            background-image: linear-gradient(black, green);
+        }
+
+        .s_section{
+            background-image: linear-gradient(black, blue);
+        }
